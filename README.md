@@ -1,1 +1,4 @@
-# PlantGuard-Pro-Disease-Detection-Environment-Monitoring-
+This project is a mixture of IOT (Internet of Things) and ML (Machine Learning). We have used node mcu esp8266 for processing the data. As shown in block diagram node mcu will take information from DHT 11 Temperature & Humidity sensor and Hygrometer sensor(Soil Moisture sensor). Temperature sensor will provide the temperature and humidity of the environment and soil moisture sensor will sense the moisture present in the soil. This information is sent from node mcu to thingspeak api where it will create graph which will be further sent to user in the form of email by using zapier.
+By using CNN (Convulational Neural Network) we will train and test images to create the dataset or we can take it from kaggle. After uploading the image it will process them in 3 parts and give us the result that the plant is infected by which disease.
+*Hardware Used:* NodeMCU ESP 8266, DHT-11 Temperature Sensor, Hygrometer Sensor/ Soil Moisture Sensor, Connecting Wires.
+*Software Used:* Arduino IDE, ThingSpeak API, Zapier, Google Colab.
